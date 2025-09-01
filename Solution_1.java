@@ -1,6 +1,6 @@
 
 
-public class Solution {
+public class Solution_1 {
     public double maxAverageRatio(int[][] classes, int extraStudents) {
         PriorityQueue<double[]> pq = new PriorityQueue<>(new Comparator<double[]>() {
             public int compare(double[] a, double[] b) {
